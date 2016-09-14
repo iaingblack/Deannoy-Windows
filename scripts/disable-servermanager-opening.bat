@@ -1,0 +1,1 @@
+REG.exe Add HKCU\Software\Microsoft\ServerManager /V DoNotOpenServerManagerAtLogon /t REG_DWORD /D 0x1 /F
