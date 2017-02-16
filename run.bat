@@ -22,6 +22,6 @@ powershell -command "Set-ExecutionPolicy Unrestricted -Force"
 cmd /c powershell -command "%~dp0scripts\sane-windows-explorer-settings.ps1"
 cmd /c powershell -command "%~dp0scripts\disable-ie-enhanced-security.ps1"
 cmd /c powershell -command "%~dp0scripts\dont-expire-user-passwords.ps1"
-
+cmd /c powershell -command Set-MpPreference -DisableRealtimeMonitoring $true
 
 endlocal
